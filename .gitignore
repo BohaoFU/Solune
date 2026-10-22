@@ -1,0 +1,33 @@
+# Build output and local IDE state
+**/.gradle/
+**/build/
+**/.idea/
+**/.vscode/
+**/node_modules/
+**/__pycache__/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local configuration and signing materials
+**/local.properties
+**/signing.properties
+**/.keys/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+.env
+.env.*
+!.env.example
+
+# Installation packages are distributed as release assets
+*.apk
+*.aab
+*.exe
+*.msi
+*.msix
+
+# Hosting/account-specific metadata
+**/.openai/
